@@ -1,0 +1,44 @@
+    .video {
+        max-width: 1024px;
+        min-height: 683px;}
+        
+        .video__title {
+        position: relative;
+        text-align: right;
+        /*
+        padding: 83px 405px 0 0;*/
+        padding: 86px 445px 0 0;
+        }
+        
+    
+        
+ /*хз что это*/
+ .video__link{
+    max-width: 945px;
+    height: 568px;
+    display: block;
+    margin: 1px auto 0 auto;
+    padding: 20px 4px 0 0; 
+   /*margin: 83px 405px 405px 405px;
+   margin-top: 30px;*/
+  }
+  .icon__video{
+    display: block;
+    margin: 1px auto 0 auto;
+    padding: 20px 4px 0 0; 
+  }
+  
+    /*кр
+  .video__title {
+  padding: 74px 0 0 75px;
+  }
+  */
+  
+  .video__main{
+    max-width: 945px;
+    height: 568px;
+    display: block;
+    margin: 1px auto 0 auto;
+    padding: 20px 444px 0 0; 
+  }
+  
