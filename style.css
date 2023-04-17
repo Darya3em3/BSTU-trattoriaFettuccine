@@ -1152,8 +1152,9 @@ padding: 0 0 0 26px;
 }
 
 .halls__button:hover {
-  background-color: #C7C7BB;
-  color: #fff;
+  /* background-color: #C7C7BB;
+   color: #fff;*/
+  cursor: pointer;
 }
 
 .halls__cards {
@@ -1199,6 +1200,11 @@ padding: 0 0 0 26px;
     display: none;
   }
 }
+.button_color {
+  background-color: #C7C7BB;
+  color: #fff;
+}
+
 .video {
   max-width: 1024px;
   min-height: 683px;

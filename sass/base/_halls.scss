@@ -43,8 +43,9 @@
  
   
   .halls__button:hover {
-    background-color: #C7C7BB;
-    color: #fff;
+   /* background-color: #C7C7BB;
+    color: #fff;*/
+    cursor: pointer;
   }
   
   .halls__cards {
@@ -96,3 +97,8 @@
       display: none;
     }
   }  
+
+  .button_color {
+    background-color: #C7C7BB;
+    color: #fff;
+  }
