@@ -1114,20 +1114,26 @@ padding: 0 0 0 26px;
 .halls__title {
   padding: 28px 18px 0 0;
 }
-
-/*кр
-.halls__title{
-text-align: right;
-padding: 100px 96px 0 0;
+@media (max-width: 320px) {
+  .halls__title {
+    padding: 14px 2px 0 0;
+  }
 }
-*/
+
 .halls__buttons {
   padding: 23px 0 0 0px;
   margin: 10 auto;
   display: flex;
-  margin-left: 192px;
-  /* justify-content: center;*/
+  /*margin-left: 192px;*/
+  justify-content: center;
   /* gap: 0 10px;*/
+}
+@media (max-width: 320px) {
+  .halls__buttons {
+    padding: 23px 0 0 0;
+    /*gap: 7px;*/
+    flex-wrap: wrap;
+  }
 }
 
 .halls__button {
@@ -1158,11 +1164,41 @@ padding: 100px 96px 0 0;
   flex-wrap: wrap;
 }
 
+/*.halls__card {
+}
+*/
 .halls__img {
   width: 289px;
   height: 298px;
 }
 
+/*.display__none{
+  @media (max-width: 768px)
+{
+  display:none;
+}
+}*/
+/*@media (max-width: 320px)
+{display:none;
+}}*/
+/*@media (max-width: 768px)
+{}*/
+@media (max-width: 768px) {
+  .halls__card-none {
+    display: none;
+  }
+}
+@media (max-width: 320px) {
+  .halls__card-none {
+    display: none;
+  }
+}
+
+@media (max-width: 320px) {
+  .halls__card-none-mobile {
+    display: none;
+  }
+}
 .video {
   max-width: 1024px;
   min-height: 683px;
