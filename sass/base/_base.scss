@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *::before, *::after{
+    box-sizing: inherit;
+  }
+  
+  .page__title{
+    font-family: 'Jura';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #000000;
+  }
+  
+  /*.page__line{
+    position: absolute;
+    width: 327px;
+    height: 12px;
+    transform: rotate(180deg);
+  }*/
+  
+  /*body {
+    font-family: 'Italiana';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+  }*/
+  
+  
+  
+  
+  

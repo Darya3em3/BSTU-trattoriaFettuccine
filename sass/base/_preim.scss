@@ -1,0 +1,405 @@
+/*SERVICE*/
+.v6_2 {
+    width: 241px;
+    height: 306px; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    top: 26px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v6_3 {
+    width: 113px;
+    height: 104px;
+    background: url("./assets/svg/f_ad4.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 13px;
+    left: 64px;
+    overflow: hidden;
+  }
+  .v6_4 {
+    width: 193px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 134px;
+    left: 10px;
+    font-family: Megrim;
+    font-weight: Medium;
+    font-size: 23px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v6_5 {
+    width: 229px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 180px;
+    left: 3px;
+    font-family: Jura;
+    font-weight: Regular;
+    font-size: 15px;
+    Line-height: 18px;
+    opacity: 1;
+    text-align: center;
+  }
+
+
+    
+  .v5_2 {
+    width: 239px;
+    height: 306px; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    top: 26px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v5_3 {
+    width: 135px;
+    height: 87px;
+    background: url("./assets/svg/f_ad3.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 16px;
+    left: 52px;
+    overflow: hidden;
+  }
+  .v5_4 {
+    width: 99px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 133px;
+    left: 61px;
+    font-family: Megrim;
+    font-weight: Medium;
+    font-size: 23px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v5_5 {
+    width: 229px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 181px;
+    left: 10px;
+    font-family: Jura;
+    font-weight: Medium;
+    font-size: 15px;
+    Line-height: 18px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v3_2 {
+    width: 254px;
+    height: 306px; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    top: 26px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v3_3 {
+    width: 135px;
+    height: 111px;
+    background: url("./assets/svg/f_ad2.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 4px;
+    left: 61px;
+    overflow: hidden;
+  }
+  .v3_4 {
+    width: 276px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 133px;
+    left: 19px;
+   /* Width: 276px;
+  Height: 28px;*/
+    font-family: 'Megrim';
+    font-weight: 500;
+    line-height: 27px;
+    font-size: 23px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v3_5 {
+    width: 245px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 180px;
+    left: 4px;
+    font-family: 'Jura';
+    font-weight: 500;
+    font-size: 15px;
+    Line-height: 18px;
+    opacity: 1;
+    text-align: center;
+  }
+/**/
+  
+.v1_22 {
+    width: 247px;
+    height: 306px;
+    
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    top: 26px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v1_33 {
+    width: 135px;
+    height: 111px;
+    background: url("./assets/svg/f_ad1.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 53px;
+    overflow: hidden;
+  }
+  .v1_44 {
+    width: 74px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 132px;
+    left: 81px;
+    font-family: 'Megrim';
+    font-weight: Medium;
+    font-size: 23px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v1_55 {
+    width: 253px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 183px;
+    left: 3px;
+    font-family: 'Jura';
+    font-weight: Medium;
+    font-size: 15px;
+    opacity: 1;
+    Line-height: 18px;
+    text-align: center;
+  }
+.preim{
+    max-width: 1024px;
+    min-height: 443px;
+    position: relative;
+    
+    @media (max-width: 768px){    
+      max-width: 768px;
+    }
+    
+    @media (max-width: 320px){
+      max-width: 320px;
+    }
+      
+    
+    }
+    
+    .preim__title{
+      padding: 40px 0 0 0px;
+     /* padding: 5px 0 0 0px;*/
+      margin-left: 15px;
+    
+      @media (max-width: 768px){
+        padding: 50px 0 0 40px;
+      }
+    
+      @media (max-width: 320px){
+        padding: 16px 0 0 15px;
+      }
+    
+    }
+    
+
+/*для выше
+  .service__title{
+  padding: 27px 0 0 75px;
+  }
+  */
+  
+  /*может и не нужно .preim{
+    max-width: 1024px;
+    margin: 110 auto;
+  }*/
+  
+   
+  .preim__cards {
+    max-width: 1024px;
+    min-height: 329px;
+    /*
+    max-width: 951px;*/
+    margin: 0 auto;
+    padding: 10px 0 0 0;
+    display: flex;
+    gap: 90px 0;
+  
+    @media (max-width: 768px){
+      max-width: 675px;
+      padding: 50px 0 0 0;
+      gap: 28px 0;
+    }
+  
+    @media (max-width: 320px){
+      max-width: 284px;
+      padding: 25px 0 0 0;
+      gap: 14px 0;
+    }
+  
+  }
+  /*что-то на нормальном
+  .service__cards {
+  max-width: 951px;
+  margin: 0 auto;
+  padding: 96px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 58px 0;
+  }
+  */
+  
+  .preim__card{
+    min-height: 217px;
+    gap: 221px;
+    align-items: center;
+    padding: 0 0 0 45px;
+    margin-top: 29px;
+  
+    @media (max-width: 768px){
+      min-height: 107px;
+      gap: 25px;
+      padding: 0 0 0 78px;
+    }
+  
+    @media (max-width: 320px){
+      min-height: 45px;
+      gap: 10px;
+      padding: 0 0 0 14px;
+    }
+  }
+  
+  /*что-то на нормальном
+  .service__card{
+  border: 3px solid #A18364;
+  min-height: 217px;
+  display: flex;
+  gap: 21px;
+  align-items: center;
+  padding: 0 0 0 26px;
+  }
+  
+  */
+  /*хз все эти imj и карды*/
+  .preim__card-img1 {
+    
+  width: 135px;
+  height: 111.38px;
+  margin-top: 0px;
+  
+  }
+  
+  .preim__card-img2 {
+    
+    width: 135px;
+    height: 111.38px;
+    margin-top: 0px;
+    
+      }
+  
+      .preim__card-img3 {
+    
+        width: 135px;
+        height: 117.38px;
+        margin-top: 0px;
+        
+          }
+  .preim__card2{
+    min-height: 217px;
+    gap: 221px;
+    align-items: center;
+    padding: 0 0 0 50px;
+    margin-top: 0px;
+  }
+  
+  .preim__card3{
+    min-height: 217px;
+    gap: 221px;
+    align-items: center;
+    padding: 0 0 0 21px;
+    margin-top: 0px;
+  }
+  
+  .preim__card4{
+    min-height: 217px;
+    gap: 221px;
+    align-items: center;
+    padding: 0 0 0 5px;
+    margin-top: 0px;
+  }
+  
+  .preim__card-img4 {
+    
+    width: 111px;
+    height: 110.38px;
+    margin-top: 18px;
+    margin-left: 85px;
+    
+      }
+  
+  .preim__card-paragraph{
+    font-family: 'Megrim';
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 27px;
+   position: absolute;
+   margin-left: 31px;
+   margin-top: 18px;
+   gap: 2px;
+    color: #000000;
+  }
+  
+
+  
+  /*хз что это*/
+   .preim__card-paragraph-opis{
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
+    position: relative;
+  
+  }
+  
+  
+  
