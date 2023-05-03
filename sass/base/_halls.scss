@@ -105,13 +105,13 @@
 
   .photo__slider {
     position: relative;
-    height: 954px;
+    height: 690px;
     overflow-x: hidden;
      @media (max-width: 768px){
-        height: 957px;
+        height: 690px;
       }
       @media (max-width: 320px){
-        height: 482px;
+        height: 360px;
       }
   }
 

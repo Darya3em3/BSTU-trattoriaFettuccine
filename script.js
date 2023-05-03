@@ -6,7 +6,14 @@ const halls = {
       './assets/jpg/меню3.jpg',
       './assets/jpg/меню4.jpg',
       './assets/jpg/меню5.jpg',
-      './assets/jpg/меню6.jpg'
+      './assets/jpg/меню6.jpg',
+      
+      './assets/jpg/меню7.jpg',
+      './assets/jpg/меню8.jpg',
+      './assets/jpg/меню9.jpg',
+      './assets/jpg/меню10.jpg',
+      './assets/jpg/меню11.jpg',
+      './assets/jpg/меню12.jpg',
     ],
     hall: [
       './assets/jpg/1зал.jpg',
@@ -90,7 +97,7 @@ if (arrow == 'left') {
 
   
 const slider = document.querySelector('.slider');
-    //const hallImages = document.querySelectorAll('.halls__img');
+    const hallImages = document.querySelectorAll('.halls__img');
     Array.from(hallImages).forEach((image, index) => {image.src = halls[hall][index];
       console.log(image);
     });
@@ -105,6 +112,7 @@ const slider = document.querySelector('.slider');
   };
 
   function sliderRight() {
+    /*console.log('you');*/
       buttonLeft.removeEventListener('click', sliderRight);
       buttonRight.removeEventListener('click', sliderLeft);
       slider.classList.add('move_right');

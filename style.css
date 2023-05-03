@@ -1208,17 +1208,17 @@ padding: 0 0 0 26px;
 /*slider*/
 .photo__slider {
   position: relative;
-  height: 954px;
+  height: 690px;
   overflow-x: hidden;
 }
 @media (max-width: 768px) {
   .photo__slider {
-    height: 957px;
+    height: 690px;
   }
 }
 @media (max-width: 320px) {
   .photo__slider {
-    height: 482px;
+    height: 360px;
   }
 }
 
