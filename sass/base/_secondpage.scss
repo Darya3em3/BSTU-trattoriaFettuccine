@@ -8,6 +8,7 @@
 
     @media (max-width: 320px){
       max-width: 320px;
+      
     }
       
   }
@@ -17,6 +18,7 @@
 
     @media (max-width: 768px){
       padding: 39px 0 0 40px;
+      
     }
 
     @media (max-width: 320px){
@@ -46,9 +48,9 @@
     }
   }
   
-  .calc__pole{
+  .calс__pole{
     background: rgba(236, 236, 236, 0.75);
-   // border: 1px solid #A28364;
+    //border: 1px solid #A28364;
     min-height: 63px;
     display: flex;
     gap: 16px;
