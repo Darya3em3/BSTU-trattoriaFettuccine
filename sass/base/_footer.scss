@@ -38,6 +38,7 @@
     color: #000000;
     align-items: center;
     text-align: center;
+    padding: 15px 0;
   }
  
   
@@ -68,9 +69,10 @@
   }
   
   .footer__one{
-    display: flex;
-    gap: 20px;
-    align-items: center;
+      display: flex;
+      gap: 20px;
+      flex-direction: column;
+      align-items: center;
   }
   
   .footer__links{
