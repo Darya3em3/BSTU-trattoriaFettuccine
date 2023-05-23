@@ -2,7 +2,7 @@
   height: 552px;
   width: 1024px;
   margin: 0 auto;
-  background-image: url(./Assets/jpg/image.jpg);
+  background-image: url(./assets/jpg/image.jpg);
  // padding-top: 100px;
   padding-left: 61px;
   padding-bottom: 124px;
@@ -13,7 +13,7 @@
   }
 
   @media (max-width: 320px){
-    background-image: url(./Assets/jpg/image320.jpg);
+    background-image: url(./assets/jpg/image320.jpg);
     height: 283px;
     width: 320px;
     //width: 100%;
