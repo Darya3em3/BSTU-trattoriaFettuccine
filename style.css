@@ -393,7 +393,7 @@ color: #000000;
 }
 @media (max-width: 320px) {
   .header {
-    height: 70px;
+    height: 85px;
     max-width: 320px;
   }
 }
@@ -639,7 +639,6 @@ max-width: 1024px;
   width: 1024px;
   margin: 0 auto;
   background-image: url(./Assets/jpg/image.jpg);
-  padding-top: 100px;
   padding-left: 61px;
   padding-bottom: 124px;
 }
@@ -651,9 +650,10 @@ max-width: 1024px;
 }
 @media (max-width: 320px) {
   .intro {
-    height: 176px;
-    width: 100%;
-    padding-top: 0px;
+    background-image: url(./Assets/jpg/image320.jpg);
+    height: 283px;
+    width: 320px;
+    padding-top: 10px;
     padding-left: 21px;
   }
 }
@@ -664,6 +664,11 @@ max-width: 1024px;
   padding-top: 43px;
   gap: 26px;
 }
+@media (max-width: 320px) {
+  .intro__block {
+    padding-top: 3px;
+  }
+}
 
 .intro__title {
   font-family: "Italiana";
@@ -672,6 +677,7 @@ max-width: 1024px;
   font-size: 60px;
   line-height: 71px;
   color: #FFFFFF;
+  padding-top: 100px;
 }
 @media (max-width: 768px) {
   .intro__title {
@@ -682,6 +688,7 @@ max-width: 1024px;
   .intro__title {
     font-size: 30px;
     line-height: 35px;
+    padding-top: 43px;
   }
 }
 
@@ -701,8 +708,9 @@ max-width: 1024px;
 }
 @media (max-width: 320px) {
   .intro__subtitle {
-    font-size: 10px;
-    line-height: 30px;
+    padding-top: 15px;
+    font-size: 15px;
+    line-height: 17.75px;
   }
 }
 
