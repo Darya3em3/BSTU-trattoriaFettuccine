@@ -1475,13 +1475,28 @@ padding: 0 0 0 26px;
   max-width: 1024px;
   min-height: 683px;
 }
+@media (max-width: 768px) {
+  .video {
+    max-width: 768px;
+  }
+}
 
 .video__title {
   position: relative;
   text-align: right;
-  /*
-  padding: 83px 405px 0 0;*/
-  padding: 86px 445px 0 0;
+  padding: 62px 445px 0 0;
+}
+@media (max-width: 768px) {
+  .video__title {
+    padding: 78px 336px 0 0;
+  }
+}
+@media (max-width: 320px) {
+  .video__title {
+    font-size: 15px;
+    line-height: 18px;
+    padding: 47px 137px 0 0;
+  }
 }
 
 /*хз что это*/
@@ -1495,10 +1510,22 @@ padding: 0 0 0 26px;
   margin-top: 30px;*/
 }
 
-.icon__video {
+.video__img {
   display: block;
-  margin: 1px auto 0 auto;
-  padding: 20px 4px 0 0;
+  margin: -28px auto 0 auto;
+}
+@media (max-width: 768px) {
+  .video__img {
+    height: 418px;
+    margin: -14px auto 0 auto;
+  }
+}
+@media (max-width: 320px) {
+  .video__img {
+    width: 283px;
+    height: 225px;
+    margin: -3px auto 0 auto;
+  }
 }
 
 /*кр
@@ -1507,11 +1534,7 @@ padding: 74px 0 0 75px;
 }
 */
 .video__main {
-  max-width: 945px;
-  height: 568px;
-  display: block;
-  margin: 1px auto 0 auto;
-  padding: 20px 444px 0 0;
+  max-width: 954px;
 }
 
 /* price*/
