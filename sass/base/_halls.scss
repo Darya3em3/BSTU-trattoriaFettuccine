@@ -3,24 +3,27 @@
 .halls__title{
   padding: 28px 18px 0 0; 
   @media (max-width: 320px){
-    padding: 14px 2px 0 0;
+    padding: 13px 3px 0 0;
   }
 }
 
 .halls__buttons {
-  padding: 23px 0 0 0px;
+  padding: 25px 0 0 0px;
   margin: 10 auto;
   display: flex;
   /*margin-left: 192px;*/
   justify-content: center;
  /* gap: 0 10px;*/
- 
+ flex-wrap: wrap;
+
  @media (max-width: 320px){
-  padding: 23px 0 0 0;
-  /*gap: 7px;*/
-  flex-wrap: wrap;
-  
+  padding: 23px 0 0 0px;
 }
+  /*gap: 7px;*/
+
+  @media (max-width: 768px){    
+    padding: 20px 0 0 7px;
+  }
 }
 
 .halls__button {
@@ -58,8 +61,8 @@
 }
 */
 .halls__img {
-  width: 289px;
-  height: 298px;
+  width: 293px;
+  height: 299px;
 }
 
 /*.display__none{
