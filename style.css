@@ -1478,6 +1478,12 @@ padding: 0 0 0 26px;
 @media (max-width: 768px) {
   .video {
     max-width: 768px;
+    min-height: 532px;
+  }
+}
+@media (max-width: 320px) {
+  .video {
+    min-height: 276px;
   }
 }
 
@@ -1540,12 +1546,53 @@ padding: 74px 0 0 75px;
 /* price*/
 .price__title {
   text-align: right;
-  padding: 85px 425px 0 0;
+  padding: 28px 425px 0 0;
+}
+@media (max-width: 768px) {
+  .price__title {
+    padding: 30px 269px 0 0;
+  }
+}
+@media (max-width: 320px) {
+  .price__title {
+    font-size: 15px;
+    line-height: 18px;
+    padding: 54px 104px 0 0;
+  }
 }
 
 .span {
   font-size: 35px;
   font-weight: 300;
+}
+
+.v00_4 {
+  width: 227px;
+  height: 285px;
+  background: rgb(199, 199, 187);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 8px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border: 2px solid #000000;
+  border-bottom-right-radius: 15px;
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+  .v00_4 {
+    left: 183px;
+  }
+}
+@media (max-width: 320px) {
+  .v00_4 {
+    top: -15px;
+    left: -29px;
+    width: 209px;
+    height: 263px;
+  }
 }
 
 .v0_4 {
@@ -1563,6 +1610,35 @@ padding: 74px 0 0 75px;
   border-bottom-right-radius: 15px;
   overflow: hidden;
 }
+@media (max-width: 320px) {
+  .v0_4 {
+    width: 209px;
+    height: 262px;
+    top: -7px;
+    left: -29px;
+  }
+}
+
+.v00_1 {
+  width: 184px;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 15px;
+  left: 18px;
+  font-family: "Jura";
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 1;
+  line-height: 21px;
+  text-align: center;
+  text-decoration-line: underline;
+}
+@media (max-width: 320px) {
+  .v00_1 {
+    line-height: 18px;
+    font-size: 15px;
+  }
+}
 
 .v0_1 {
   width: 141px;
@@ -1570,13 +1646,39 @@ padding: 74px 0 0 75px;
   position: absolute;
   top: 20px;
   left: 43px;
-  font-family: Jura;
+  font-family: "Jura";
   font-weight: 600;
   font-size: 18px;
   opacity: 1;
   line-height: 21px;
   text-align: center;
   text-decoration-line: underline;
+}
+@media (max-width: 320px) {
+  .v0_1 {
+    line-height: 18px;
+    font-size: 15px;
+  }
+}
+
+.v00_2 {
+  width: 101px;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 61px;
+  left: 64px;
+  font-family: "Jura";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  opacity: 1;
+  text-align: center;
+}
+@media (max-width: 320px) {
+  .v00_2 {
+    line-height: 18px;
+    font-size: 15px;
+  }
 }
 
 .v0_2 {
@@ -1585,12 +1687,18 @@ padding: 74px 0 0 75px;
   position: absolute;
   top: 62px;
   left: 76px;
-  font-family: Jura;
+  font-family: "Jura";
   font-weight: 600;
   font-size: 18px;
   line-height: 21px;
   opacity: 1;
   text-align: center;
+}
+@media (max-width: 320px) {
+  .v0_2 {
+    line-height: 18px;
+    font-size: 15px;
+  }
 }
 
 .v0_3 {
@@ -1598,13 +1706,20 @@ padding: 74px 0 0 75px;
   color: rgb(0, 0, 0);
   position: absolute;
   top: 99px;
-  left: 9px;
-  font-family: Jura;
+  left: 5px;
+  font-family: "Jura";
   font-weight: 600;
   font-size: 18px;
   line-height: 21px;
   opacity: 1;
   text-align: center;
+}
+@media (max-width: 320px) {
+  .v0_3 {
+    line-height: 18px;
+    font-size: 15px;
+    left: 0px;
+  }
 }
 
 .price__card {
@@ -1624,6 +1739,22 @@ padding: 74px 0 0 75px;
   margin: 0 auto;
   display: flex;
   gap: 85px 0;
+}
+@media (max-width: 768px) {
+  .price__cards {
+    height: 659px;
+    min-width: 228px;
+    padding: 29px 0 0 0;
+    margin: -2px auto;
+    display: flex;
+    gap: 35px 60px;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 320px) {
+  .price__cards {
+    height: 946px;
+  }
 }
 
 .price {
