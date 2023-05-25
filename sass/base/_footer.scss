@@ -1,0 +1,83 @@
+ /*fot*/
+  
+ .footer{
+    max-width: 1024px;
+    position: relative;
+    min-height: 107px;
+    padding: 0px 10px 0 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer__first{
+    display: flex;
+    gap: 0px 20px;
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    /*max-width: 184px;*/
+    height: 73px;
+    flex-direction: column; 
+  }
+  
+  
+  
+  .footer_second{
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    align-items: center;
+    text-align: center;
+    padding: 15px 0;
+  }
+ 
+  
+  .footer_third{
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .icon__inst{
+    width: 38px;
+    height: 38px;
+  }
+  
+  .icon__pin{
+    width: 36px;
+    height: 36.72px;
+  }
+  
+  .icon__tg{
+    width: 58px;
+    height: 54.28px;
+  }
+  
+  .footer__one{
+      display: flex;
+      gap: 20px;
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  .footer__links{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
