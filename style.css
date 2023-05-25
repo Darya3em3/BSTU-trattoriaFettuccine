@@ -1805,7 +1805,7 @@ padding: 74px 0 0 75px;
 .v8_2 {
   width: 100%;
   height: 706px;
-  background: url("/assets/jpg/image2.jpg");
+  background-image: url(./assets/jpg/image2.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1823,7 +1823,7 @@ padding: 74px 0 0 75px;
 }
 @media (max-width: 320px) {
   .v8_2 {
-    background: url("/assets/jpg/image3.jpg");
+    background-image: url(./assets/jpg/image3.jpg);
     top: 21px;
     width: 100%;
   }
@@ -1878,7 +1878,6 @@ padding: 74px 0 0 75px;
 .v8_5 {
   width: 332px;
   height: 276px;
-  background: url("../images/v8_5.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1932,7 +1931,6 @@ padding: 74px 0 0 75px;
 .v8_7 {
   width: 399px;
   height: 47px;
-  background: url("../images/v8_7.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
